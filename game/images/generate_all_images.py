@@ -112,7 +112,7 @@ def remove_background(image_path, output_path, tolerance=100):
         print(f"  ✗ 去背失败：{e}")
         return False
 
-def generate_image(prompt, output_path, size="2560x1440"):
+def generate_image(prompt, output_path, size="2048x2048"):
     """调用火山云 Ark API 生成图片"""
     print(f"生成：{output_path}")
     
